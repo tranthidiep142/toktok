@@ -51,6 +51,11 @@
     background-color: transparent;
     padding: 4px 10px;
     cursor: pointer;
+
+    &:hover,
+    :active {
+        color: #8950f8;
+    }
 }
 
 .badge {

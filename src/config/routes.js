@@ -1,10 +1,16 @@
 const routes = {
     home: '/',
-    following: '/following',
+    program: '/program',
+    beauty: '/beauty',
+    // cartoon: '/cartoon',
+    live: '/live',
+    recent: '/recent',
+    favourites: '/favourites',
+    saved: '/saved',
+    mine: '/mine',
     profile: '/@:nickname',
     upload: '/upload',
     search: '/search',
-    live: '/live',
 };
 
 export default routes;

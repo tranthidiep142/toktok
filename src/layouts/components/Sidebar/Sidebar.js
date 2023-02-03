@@ -11,6 +11,7 @@ import {
 } from '~/components/Icons';
 import SuggestedAccounts from '~/components/SuggestedAccounts';
 import config from '~/config';
+import Footer from './Footer';
 
 const cx = classNames.bind(styles);
 
@@ -18,18 +19,74 @@ function Sidebar() {
     return (
         <aside className={cx('wrapper')}>
             <Menu>
-                <MenuItem title="For You" to={config.routes.home} icon={<HomeIcon />} activeIcon={<HomeActiveIcon />} />
+                <div className={cx('title')}>MENU</div>
+
+                <MenuItem title="Home" to={config.routes.home} icon={<HomeIcon />} activeIcon={<HomeActiveIcon />} />
                 <MenuItem
-                    title="Following"
-                    to={config.routes.following}
+                    title="Programming knowledge"
+                    to={config.routes.program}
                     icon={<UserGroupIcon />}
                     activeIcon={<UserGroupActiveIcon />}
                 />
-                <MenuItem title="LIVE" to={config.routes.live} icon={<LiveIcon />} activeIcon={<LiveActiveIcon />} />
+                <MenuItem
+                    title="Programming knowledge"
+                    to={config.routes.program}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                />
+                <MenuItem
+                    title="Beauty"
+                    to={config.routes.beauty}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                />
+                {/* <MenuItem
+                    title="Tarot"
+                    to={config.routes.tarot}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                /> */}
+                <MenuItem
+                    title="Livestream"
+                    to={config.routes.live}
+                    icon={<LiveIcon />}
+                    activeIcon={<LiveActiveIcon />}
+                />
+            </Menu>
+
+            <Menu>
+                <div className={cx('title')}>LIBRARY</div>
+
+                <MenuItem
+                    title="Recent"
+                    to={config.routes.recent}
+                    icon={<HomeIcon />}
+                    activeIcon={<HomeActiveIcon />}
+                />
+                <MenuItem
+                    title="Favourites"
+                    to={config.routes.favourites}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                />
+                <MenuItem
+                    title="Saved"
+                    to={config.routes.saved}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                />
+                <MenuItem
+                    title="My videos"
+                    to={config.routes.mine}
+                    icon={<UserGroupIcon />}
+                    activeIcon={<UserGroupActiveIcon />}
+                />
             </Menu>
 
             <SuggestedAccounts label="Suggested accounts" />
             <SuggestedAccounts label="Following accounts" />
+
+            <Footer />
         </aside>
     );
 }
