@@ -1,13 +1,13 @@
-import Menu from '../Menu';
+import Video from '../Video';
 
 function Program() {
     return (
-        <Menu
+        <Video
             videosInfo={[
                 {
                     videoImg: '/imgs/program5.jpeg',
                     src: '/videos/program5.mp4',
-                    title: 'Design Thinking basic',
+                    title: 'Design Thinking basic Design Thinking basic Design Thinking basic Design Thinking basic Design Thinking basic',
                     hashtag: '#trending #xuhuong',
                     views: '12M views',
                     time: '1 hours ago',
@@ -18,7 +18,7 @@ function Program() {
                     videoImg: '/imgs/program2.jpeg',
                     src: '/videos/program2.mp4',
                     title: 'Chatbot AI đang khiến thế giới công nghệ phát cuồng',
-                    hashtag: '#trending #xuhuong',
+                    hashtag: '#chatGPT #trending #xuhuong',
                     views: '255K views',
                     time: '3 hours ago',
                     creatorImg: '/imgs/program2.jpeg',
@@ -27,8 +27,8 @@ function Program() {
                 {
                     videoImg: '/imgs/program3.jpeg',
                     src: '/videos/program3.mp4',
-                    title: 'Hỏi xoáy đáp xoay cùng ChatGPT',
-                    hashtag: '#trending #xuhuong',
+                    title: 'Hỏi xoáy đáp xoay cùng ChatGPT Chatbot AI đang khiến thế giới công nghệ phát cuồng Chatbot AI đang khiến thế giới công nghệ phát cuồng',
+                    hashtag: '#chatGPT #trending #xuhuong',
                     views: '465K views',
                     time: '3 days ago',
                     creatorImg: '/imgs/program5.jpeg',
@@ -37,7 +37,7 @@ function Program() {
                 {
                     videoImg: '/imgs/program2.jpeg',
                     src: '/videos/program2.mp4',
-                    title: 'ChatGPT là gì?',
+                    title: 'ChatGPT là gì? Chatbot AI đang khiến thế giới công nghệ phát cuồng',
                     hashtag: '#trending #xuhuong',
                     views: '80K views',
                     time: '14hours ago',
@@ -58,7 +58,7 @@ function Program() {
                 {
                     videoImg: '/imgs/program5.jpeg',
                     src: '/videos/program5.mp4',
-                    title: 'ChatGPT là gì?',
+                    title: 'ChatGPT là gì? Chatbot AI đang khiến thế giới công nghệ phát cuồng',
                     hashtag: '#trending #xuhuong',
                     views: '80K views',
                     time: '14hours ago',
@@ -78,7 +78,7 @@ function Program() {
                 {
                     videoImg: '/imgs/program3.jpeg',
                     src: '/videos/program3.mp4',
-                    title: 'Hỏi xoáy đáp xoay cùng ChatGPT',
+                    title: 'Hỏi xoáy đáp xoay cùng ChatGPT Chatbot AI đang khiến thế giới công nghệ phát cuồng',
                     hashtag: '#trending #xuhuong',
                     views: '465K views',
                     time: '3 days ago',

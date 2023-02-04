@@ -1,8 +1,8 @@
-import Menu from '../Menu';
+import Video from '../Video';
 
 function Beauty() {
     return (
-        <Menu
+        <Video
             videosInfo={[
                 {
                     videoImg: '/imgs/beauty2.jpeg',

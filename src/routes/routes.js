@@ -5,11 +5,8 @@ import { HeaderOnly } from '~/layouts';
 
 // Pages
 import Home from '~/pages/Home';
-// import Menu from '~/pages/Menu';
 import Beauty from '~/pages/Beauty';
 import Cartoon from '~/pages/Cartoon';
-// import Live from '~/pages/Live';
-//
 import Recent from '~/pages/Recent';
 import Favourites from '~/pages/Favourites';
 import Saved from '~/pages/Saved';

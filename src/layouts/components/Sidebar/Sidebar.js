@@ -25,8 +25,8 @@ function Sidebar() {
                 <MenuItem
                     title="Cartoon"
                     to={config.routes.cartoon}
-                    icon={<UserGroupIcon />}
-                    activeIcon={<UserGroupActiveIcon />}
+                    icon={<LiveIcon />}
+                    activeIcon={<LiveActiveIcon />}
                 />
                 <MenuItem
                     title="Programming knowledge"
@@ -39,18 +39,6 @@ function Sidebar() {
                     to={config.routes.beauty}
                     icon={<UserGroupIcon />}
                     activeIcon={<UserGroupActiveIcon />}
-                />
-                {/* <MenuItem
-                    title="Tarot"
-                    to={config.routes.tarot}
-                    icon={<UserGroupIcon />}
-                    activeIcon={<UserGroupActiveIcon />}
-                /> */}
-                <MenuItem
-                    title="Livestream"
-                    to={config.routes.live}
-                    icon={<LiveIcon />}
-                    activeIcon={<LiveActiveIcon />}
                 />
             </Menu>
 
