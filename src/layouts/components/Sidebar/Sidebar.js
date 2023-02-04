@@ -23,8 +23,8 @@ function Sidebar() {
 
                 <MenuItem title="Home" to={config.routes.home} icon={<HomeIcon />} activeIcon={<HomeActiveIcon />} />
                 <MenuItem
-                    title="Programming knowledge"
-                    to={config.routes.program}
+                    title="Cartoon"
+                    to={config.routes.cartoon}
                     icon={<UserGroupIcon />}
                     activeIcon={<UserGroupActiveIcon />}
                 />
